@@ -1,0 +1,136 @@
+body {
+    background-color: azure;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 3fr 7fr ;
+    grid-auto-rows: auto;
+    gap: 10px;
+}
+
+
+div.items.one {
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+    
+}
+
+.items {
+    align-self: stretch;
+}
+
+.box1 {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    gap: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+ }
+
+ .box101 {
+     padding-left: 70px;
+     padding-top: 20px; 
+     padding-bottom: 20px;
+ }
+
+ .box102 {
+    padding-top: 70px; 
+    padding-left: 15px;
+ }
+
+ .box2 {
+    padding-left: 15px;
+    padding-top: 20px;
+ }
+
+ .box4 {
+    padding-left: 15px;
+    padding-top: 10px;
+ }
+
+ .box5 {
+     padding-left: 15px;
+ }
+
+.box6 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.box7 {
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.box9 {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.box11 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.box12 {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.box13 {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.box14 {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.box15 {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.box16 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.box17 {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.box18 {
+    padding-left: 15px;
+    padding-top: 8px;
+}
+
+.box19 {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.box20 {
+    padding-left: 15px;
+    padding-top: 8px;
+}
+
+.box21 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.box22 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    overflow: hidden;
+}
